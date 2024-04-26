@@ -23,6 +23,4 @@
 // }
 
 // ✅ SOLUTION_2: 
-function maskify(str) {
-  return '#'.repeat(str.slice(0, -4).length) + str.slice(-4);
-}
+const maskify = (str) => '#'.repeat(str.slice(0, -4).length) + str.slice(-4);
